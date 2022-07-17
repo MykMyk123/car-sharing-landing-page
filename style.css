@@ -458,3 +458,44 @@ nav{
     align-items: flex-end;
     color: var(--gray-color);
 }
+
+@media (max-width:700px) {
+    .title{
+        font-size: 55px;
+        
+    }
+    .hero-description{
+        font-size: 13px;
+    }
+    .button.big{
+        padding: 13px 30px;
+    }
+    .contact-section{
+        padding: 0 25px;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .form{
+        padding: 0;
+        padding-right: 25px;
+    }
+
+    footer{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+        
+    }
+    .footer-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-footer > nav{
+        margin-bottom: 20px;
+    }
+}
